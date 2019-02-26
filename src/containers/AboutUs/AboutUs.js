@@ -4,7 +4,7 @@ class AboutUs extends Component {
   render() {
     return (
       <div>
-        This is home page!
+        This is about us!
       </div>
     );
   }
