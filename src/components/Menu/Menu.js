@@ -4,11 +4,11 @@ import {NavLink} from 'react-router-dom'
 class Menu extends Component {
     render() {
         return (
-            <div>
-                <NavLink to="/">Home</NavLink>
-                <NavLink to="/aboutus">About US</NavLink>
-                <NavLink to="/contacts">Contacts</NavLink>
-            </div>
+            <nav className="nav justify-content-end">
+                <NavLink className="nav-link" to="/">Home</NavLink>
+                <NavLink className="nav-link" to="/aboutus">About Us</NavLink>
+                <NavLink className="nav-link" to="/contacts">Contacts</NavLink>
+            </nav>
         );
     }
 }
