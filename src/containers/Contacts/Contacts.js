@@ -1,15 +1,17 @@
-import React, { Component } from 'react';
+import React, {Component, Fragment} from 'react';
 import Menu from "../../components/Menu/Menu"
 
 class AboutUs extends Component {
-  render() {
-    return (
-      <div>
-        <Menu/>
-        This is our contacts!
-      </div>
-    );
-  }
+    render() {
+        return (
+            <Fragment>
+                <Menu/>
+                <div className='container'>
+                    <p className='m-5'>Вам совершенно точно не нужно пытаться контактировать с нами ведь это ничего не изменит.</p>
+                </div>
+            </Fragment>
+        );
+    }
 }
 
 export default AboutUs;
