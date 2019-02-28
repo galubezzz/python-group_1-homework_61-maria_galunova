@@ -1,5 +1,6 @@
 import React, {Component, Fragment} from 'react';
 import Menu from "../../components/Menu/Menu"
+import Footer from "../../components/Footer/Footer"
 
 class AboutUs extends Component {
     render() {
@@ -11,6 +12,7 @@ class AboutUs extends Component {
                         Никто и никогда не сможет по-настоящему быть рядом с тобой. Все отношения - это лишь иллюзия
                         близости и нелепая попытка заполнить пустоту внутри.</p>
                 </div>
+                <Footer/>
             </Fragment>
         );
     }

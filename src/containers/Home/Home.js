@@ -1,5 +1,6 @@
 import React, {Component, Fragment} from 'react';
 import Menu from "../../components/Menu/Menu"
+import Footer from "../../components/Footer/Footer"
 
 class Home extends Component {
     render() {
@@ -11,6 +12,7 @@ class Home extends Component {
                         масштабах вселенной, с невероятной скоростью летящие навстречу смерти, которая будет
                         единственным возможным избавлением.</p>
                 </div>
+                <Footer/>
             </Fragment>
         );
     }
